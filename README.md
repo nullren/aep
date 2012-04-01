@@ -18,8 +18,8 @@ API key.
 ## PHP Dependencies
 
 I think these were the only things i needed to enable and install:
-- json
-- gd
+-  json
+-  gd
 
 ## License
 
