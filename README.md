@@ -19,10 +19,16 @@ API key.
 
 I think these were the only things i needed to enable and install:
 
-* json
-* gd
+- json
+- gd
 
 ## License
 
 IDGAFWYDWT licensed (I don't give a fuck what you do with this).
 
+## TODO list
+
+- make a prettier front end
+- add options to change colors
+- add option to change font
+- add option to change size
