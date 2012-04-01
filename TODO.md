@@ -1,0 +1,4 @@
+-  make a prettier front end
+-  add options to change colors
+-  add option to change font
+-  add option to change size
