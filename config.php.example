@@ -1,0 +1,5 @@
+<?php
+
+# get one at http://www.last.fm/api
+
+define('LASTFM_API_KEY', 'dadadadadadadadadadadadadadadada');
