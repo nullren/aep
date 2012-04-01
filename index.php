@@ -1,6 +1,4 @@
 <?php
-# clone of davethemoonman's image of aep score developed by C26000
-# http://www.last.fm/group/We%2BDon%2527t%2BHave%2BExponential%2BProfiles/journal/2006/05/4/129052
 
 # get LASTFM_API_KEY
 include_once('config.php');
@@ -58,31 +56,27 @@ if( isset($_GET['u']) ){
 
 /* nginx does the cacheing in this app */
 
-?>
-<html>
-<head>
-<title>aep image link</title>
 
-<script type="text/javascript">
-function make_link(){
-  var username = document.getElementById("username");
-  var imgurl = "http://aep.lolwut.net/" + escape(username.value) +
-".png";
-  document.getElementById("textbox").value =
-"[url=http://blog.nullren.com/2011/09/21/created-aep-score-image-thingy][img]"+imgurl+"[/img][/url]";
-  document.getElementById("aep").src = imgurl;
-  document.getElementById("derp").style.display = "block";
-}
-</script>
-</head>
-<body>
-<h6>aep image link generator</h6>
-<form action="#">
-<p>last.fm username: <input type="text" id="username" /><input
-type="submit" value="make bbcode" onclick="make_link(); return false"
-/></p>
-<p><textarea id="textbox" rows="3" cols="50"></textarea></p>
-<p id="derp" style="display:none">aep image: <img id="aep" /></p>
-</form>
-</body>
+?><html>
+  <head>
+    <title>aep image link</title>
+
+    <script type="text/javascript">
+      function make_link(){
+        var username = document.getElementById("username");
+        var imgurl = "http://aep.lolwut.net/" + escape(username.value) + ".png";
+        document.getElementById("textbox").value = "[url=http://blog.nullren.com/2011/09/21/created-aep-score-image-thingy][img]"+imgurl+"[/img][/url]";
+        document.getElementById("aep").src = imgurl;
+        document.getElementById("derp").style.display = "block";
+      }
+    </script>
+  </head>
+  <body>
+    <h6>aep image link generator</h6>
+    <form action="#">
+      <p>last.fm username: <input type="text" id="username" /><input type="submit" value="make bbcode" onclick="make_link(); return false" /></p>
+      <p><textarea id="textbox" rows="3" cols="50"></textarea></p>
+      <p id="derp" style="display:none">aep image: <img id="aep" /></p>
+    </form>
+  </body>
 </html>
