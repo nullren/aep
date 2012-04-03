@@ -6,8 +6,8 @@ by [C26000](http://www.last.fm/group/We%2BDon%2527t%2BHave%2BExponential%2BProfi
 
 ## License
 
-MIT. In the future, will probably be changed to IDGAFWYDWTS (I don't
-give a fuck what you do with this shit).
+IDGAFWYDWTS-EP: I don't give a fuck what you do with this shit, except
+patents---fuck patents.
 
 
 ## Installation
