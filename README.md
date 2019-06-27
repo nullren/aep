@@ -1,5 +1,7 @@
 # AEP Image Generator
 
+[![Join the chat at https://gitter.im/nullren-aep/community](https://badges.gitter.im/nullren-aep/community.svg)](https://gitter.im/nullren-aep/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is a pretty simple little script. It doesn't do much which is why I
 like it. It is a clone of davethemoonman's image of aep score developed
 by [C26000](http://www.last.fm/group/We%2BDon%2527t%2BHave%2BExponential%2BProfiles/journal/2006/05/4/129052).
